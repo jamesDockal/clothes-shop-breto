@@ -11,9 +11,9 @@ export default function Featured() {
       <span className="about-product">Elegancia e conforto nos seus pés</span>
       <button className="buy-button">Comprar</button>
       <div className="three-dots">
-        <div className="dot active"></div>
-        <div className="dot"></div>
-        <div className="dot"></div>
+        <div className="dot active" />
+        <div className="dot" />
+        <div className="dot" />
       </div>
     </div>
   );

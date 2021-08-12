@@ -17,8 +17,17 @@
   color: #555;
 }
 
+.list li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.list li:hover {
+  transform: scale(1.1);
+}
+
 .user-actions {
-  margin-right: 20px;
+  margin-right: 48px;
 }
 .user-actions span {
   line-height: 0;

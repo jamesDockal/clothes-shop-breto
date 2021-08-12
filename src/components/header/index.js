@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Logo from "../../images/L1.png";
 
 export default function Header() {
   return (
@@ -10,7 +11,7 @@ export default function Header() {
         <li>Acessórios</li>
       </ul>
       <div className="logo">
-        <img src="./images/L1.png" />
+        <img src={Logo} />
       </div>
       <ul className="user-actions list">
         <li>Busca</li>

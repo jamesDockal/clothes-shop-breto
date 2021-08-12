@@ -1,0 +1,28 @@
+.header {
+  background-color: white;
+  height: 15vh;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 48px;
+  color: #555;
+}
+
+.user-actions {
+  margin-right: 20px;
+}
+.user-actions span {
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+}

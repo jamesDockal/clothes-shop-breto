@@ -1,0 +1,108 @@
+.footer-container {
+  background-color: #292829;
+  height: 35vh;
+  font-family: "Poppins";
+  color: #565657;
+  display: flex;
+  padding: 48px 64px;
+  justify-content: space-between;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.get-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.get-us strong {
+  text-transform: uppercase;
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.newsletter-explain {
+  color: #b1b1b1;
+  max-width: 330px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.add-email input {
+  margin-top: 16px;
+  width: 350px;
+  padding: 32px 32px;
+  border: none;
+
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+
+  background-color: #414040;
+  color: white;
+  font-size: 18px;
+  outline: none;
+}
+
+.add-email input:valid,
+.add-email input:focus {
+  background-color: #333;
+}
+
+.add-email input::placeholder {
+  font-family: "Poppins";
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
+.add-email button {
+  background-color: #d7dad8;
+  font-weight: bolder;
+  padding: 28px 32px;
+  font-size: 18px;
+  font-family: "Poppins";
+  width: 130px;
+  border-top-right-radius: 48%;
+  border-bottom-right-radius: 48%;
+  cursor: pointer;
+  border: none;
+}
+
+.add-email button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.2);
+}
+
+.social-medias {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.medias {
+  display: flex;
+  gap: 48px;
+}
+
+.medias i {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}

@@ -3,6 +3,7 @@ import Collection from "../../components/collection";
 import Featured from "../../components/featured";
 import Header from "../../components/header";
 import Contact from "../../components/contact";
+import Footer from "../../components/footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Featured />
       <Collection />
       <Contact />
+      <Footer />
     </>
   );
 }

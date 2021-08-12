@@ -23,19 +23,24 @@
 }
 
 .list li:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
+  color: black;
 }
 
 .user-actions {
   margin-right: 48px;
 }
+
 .user-actions span {
   line-height: 0;
   position: absolute;
   top: 50%;
-  /* transform: translateY(-50%); */
 }
 
 .logo {
   cursor: pointer;
+}
+
+.logo :hover {
+  transform: scale(1.3);
 }

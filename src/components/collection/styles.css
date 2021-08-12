@@ -1,5 +1,6 @@
 .collections {
   width: 100vw;
+  margin-bottom: 32px;
 }
 
 .collections h1 {
@@ -46,8 +47,8 @@
   position: relative;
 }
 
-.color:hover {
-  transform: scale(1.05);
+.color:not(.black):hover {
+  transform: scale(1.2);
 }
 
 .black {
@@ -57,11 +58,11 @@
 .black:after {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-48%, -50%);
   border-radius: 50%;
   border: black 2px solid;
 }
@@ -70,7 +71,7 @@
 }
 
 .darkbrown {
-  background-color: #836953;
+  background-color: #745453;
 }
 
 .product-name {

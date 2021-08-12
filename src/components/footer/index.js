@@ -24,15 +24,15 @@ export default function Footer() {
           </div>
           <div className="add-email">
             <input required name="email" placeholder="Adicione seu email" />
-            <button>OK</button>
+            <button onClick={(e) => e.preventDefault()}>OK</button>
           </div>
         </form>
         <div className="social-medias">
           <strong>Redes Sociais</strong>
           <div className="medias">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f facebook"></i>
+            <i class="fab fa-twitter twitter"></i>
+            <i class="fab fa-instagram instagram"></i>
           </div>
         </div>
       </div>

@@ -1,9 +1,10 @@
 .contact-container {
   background-color: black;
   color: white;
-  height: 70vh;
+  height: 650px;
   display: flex;
   justify-content: space-around;
+  padding-top: 16px;
 }
 
 .about-us {
@@ -99,10 +100,10 @@
 
 .triangulo {
   position: absolute;
-  right: 2.5%;
-  top: 25%;
+  right: 5%;
+  top: 35%;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 18px;
 }
 
 textarea {
@@ -140,11 +141,18 @@ textarea {
 .message-button {
   margin-top: 8px;
   border: none;
-  width: 70px;
-  height: 50px;
+  width: 75px;
+  height: 60px;
   margin-left: auto;
+  cursor: pointer;
 }
 
-.message-button span {
-  font-size: 34px;
+.message-button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.2);
+}
+
+.message-button i {
+  font-size: 28px;
 }

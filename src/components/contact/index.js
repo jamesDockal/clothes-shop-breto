@@ -39,15 +39,15 @@ export default function Contact() {
             type="text"
           />
           <label className="department-label">Departamento</label>
-          <span class="material-icons triangulo ">expand_more</span>
+          <i class="fas fa-chevron-down triangulo"></i>
         </div>
 
         <div className="message-box">
           <textarea required className="message-input" type="text" />
           <label className="message-label">Mensagem</label>
         </div>
-        <button className="message-button">
-          <span class="material-icons">arrow_forward_ios</span>
+        <button onClick={(e) => e.preventDefault()} className="message-button">
+          <i class="fas fa-chevron-right"></i>
         </button>
       </form>
     </div>

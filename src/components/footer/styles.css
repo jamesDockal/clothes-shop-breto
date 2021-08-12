@@ -1,6 +1,6 @@
 .footer-container {
   background-color: #292829;
-  height: 35vh;
+  height: 350px;
   font-family: "Poppins";
   color: #565657;
   display: flex;
@@ -85,7 +85,8 @@ ul li {
 }
 
 .add-email button:hover {
-  background-color: black;
+  background-color: #292829;
+  border: 3px solid white;
   color: white;
   transform: scale(1.2);
 }
@@ -102,7 +103,24 @@ ul li {
 }
 
 .medias i {
-  font-size: 24px;
+  font-size: 26px;
+  transform: scale(1.1);
+
   color: white;
   cursor: pointer;
+}
+
+.facebook:hover {
+  transform: scale(1.4);
+  color: #4267b2;
+}
+
+.twitter:hover {
+  transform: scale(1.4);
+  color: #1da1f2;
+}
+
+.instagram:hover {
+  transform: scale(1.4);
+  color: #fb3958;
 }

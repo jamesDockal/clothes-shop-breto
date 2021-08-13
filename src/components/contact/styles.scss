@@ -167,6 +167,15 @@ textarea {
     height: 1000px;
     padding: 0px;
     text-align: center;
+
+    input,
+    textarea {
+      width: 250px;
+    }
+
+    .explain {
+      font-size: 36px;
+    }
   }
   .about-us {
     margin-top: 0;

@@ -65,3 +65,13 @@
 .active {
   background-color: white;
 }
+
+@media (max-width: 600px) {
+  .featured-product {
+    font-size: 56px;
+  }
+
+  .about-product {
+    font-size: 13px;
+  }
+}

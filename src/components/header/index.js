@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+import "./styles.scss";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,6 @@ export default function Header() {
         <li>Acessórios</li>
       </ul>
       <div className="logo" />
-
       <ul className={`${isOpen ? "show" : "not-showed"} user-actions list `}>
         <li>Busca</li>
         <li>Minha Conta</li>

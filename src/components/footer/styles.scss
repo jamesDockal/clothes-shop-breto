@@ -1,0 +1,209 @@
+.footer-container {
+  background-color: #292829;
+  height: 350px;
+  font-family: "Poppins";
+  color: #565657;
+  display: flex;
+  padding: 48px 64px;
+  justify-content: space-between;
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    ul {
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      li {
+        list-style: none;
+        cursor: pointer;
+
+        &:hover {
+          color: gray;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  .get-us {
+    strong {
+      text-transform: uppercase;
+      color: white;
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    .newsletter-explain {
+      color: lightgray;
+      max-width: 330px;
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    .add-email input {
+      margin-top: 16px;
+      width: 350px;
+      padding: 32px 32px;
+      border: none;
+
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+
+      background-color: #414040;
+      color: white;
+      font-size: 18px;
+      outline: none;
+
+      &:valid,
+      &:focus {
+        background-color: #333;
+      }
+
+      &::placeholder {
+        font-family: "Poppins";
+        color: #b1b1b1;
+        font-size: 14px;
+      }
+    }
+    .add-email button {
+      background-color: #d7dad8;
+      font-weight: bolder;
+      padding: 28px 32px;
+      font-size: 18px;
+      font-family: "Poppins";
+      width: 130px;
+      border-top-right-radius: 45%;
+      border-bottom-right-radius: 45%;
+      cursor: pointer;
+      border: none;
+
+      &:hover {
+        background-color: #292829;
+        border: 3px solid white;
+        color: white;
+        transform: scale(1.2);
+      }
+    }
+    .social-medias {
+      margin-top: 96px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .medias {
+        display: flex;
+        gap: 48px;
+
+        i {
+          font-size: 26px;
+          transform: scale(1.1);
+
+          color: white;
+          cursor: pointer;
+        }
+
+        .facebook:hover {
+          transform: scale(1.4);
+          color: #4267b2;
+        }
+
+        .twitter:hover {
+          transform: scale(1.4);
+          color: #1da1f2;
+        }
+
+        .instagram:hover {
+          transform: scale(1.4);
+          color: #fb3958;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .footer-container {
+    justify-content: center;
+    align-items: center;
+    .services {
+      display: none;
+    }
+    .footer-container {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .get-us {
+      align-items: center;
+      text-align: center;
+    }
+
+    .newsletter-explain {
+      color: lightgray;
+      margin: 0 auto;
+    }
+    .medias {
+      margin: 0 auto;
+    }
+
+    .social-medias {
+      margin-top: 32px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-container {
+    .get-us {
+      .add-email {
+        input {
+          width: 215px;
+          padding: 24px 18px;
+          border-top-left-radius: 12px;
+          border-bottom-left-radius: 12px;
+        }
+
+        button {
+          padding: 20px 32px;
+          width: 100px;
+          border-top-right-radius: 45%;
+          border-bottom-right-radius: 45%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-container {
+    .get-us {
+      .add-email {
+        display: flex;
+        align-items: center;
+        // background-color: red;
+        justify-content: center;
+        margin-top: 8px;
+        input {
+          font-size: 14px;
+          width: 175px;
+          padding: 24px 18px;
+          border-top-left-radius: 12px;
+          border-bottom-left-radius: 12px;
+          margin: 0;
+        }
+
+        button {
+          margin: 0;
+          padding: 12px 20px;
+          width: 75px;
+          height: 64px;
+          border-top-right-radius: 45%;
+          border-bottom-right-radius: 45%;
+        }
+      }
+    }
+  }
+}

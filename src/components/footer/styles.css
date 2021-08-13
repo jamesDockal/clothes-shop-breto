@@ -25,6 +25,11 @@ ul li {
   cursor: pointer;
 }
 
+ul li:hover {
+  color: gray;
+  transform: scale(1.1);
+}
+
 .get-us {
   display: flex;
   flex-direction: column;

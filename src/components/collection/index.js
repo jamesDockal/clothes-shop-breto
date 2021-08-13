@@ -13,7 +13,7 @@ export default function Collection() {
       <h1>Collection</h1>
       <div className="products-card">
         <div className="collections-card">
-          <img src={Foto1} />
+          <img alt="asd" src={Foto1} />
           <div className="colors">
             <div className="black color" />
             <div className="brown color" />
@@ -23,7 +23,7 @@ export default function Collection() {
           <span className="product-price">R$ 299</span>
         </div>
         <div className="collections-card">
-          <img src={Foto2} />
+          <img alt="asd" src={Foto2} />
           <div className="colors">
             <div className="black color" />
             <div className="brown color" />
@@ -33,7 +33,7 @@ export default function Collection() {
           <span className="product-price">R$ 125</span>
         </div>
         <div className="collections-card">
-          <img src={Foto3} />
+          <img alt="asd" src={Foto3} />
           <div className="colors">
             <div className="black color" />
             <div className="brown color" />
@@ -43,7 +43,7 @@ export default function Collection() {
           <span className="product-price">R$ 180</span>
         </div>
         <div className="collections-card">
-          <img src={Foto4} />
+          <img alt="asd" src={Foto4} />
           <div className="colors">
             <div className="black color" />
             <div className="brown color" />
@@ -53,7 +53,7 @@ export default function Collection() {
           <span className="product-price">R$ 199</span>
         </div>
         <div className="collections-card">
-          <img src={Foto5} />
+          <img alt="asd" src={Foto5} />
           <div className="colors">
             <div className="black color" />
             <div className="brown color" />
@@ -63,7 +63,7 @@ export default function Collection() {
           <span className="product-price">R$ 89</span>
         </div>
         <div className="collections-card">
-          <img src={Foto6} />
+          <img alt="asd" src={Foto6} />
           <div className="colors">
             <div className="black color" />
             <div className="brown color" />

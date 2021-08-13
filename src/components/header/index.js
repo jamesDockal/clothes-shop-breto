@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
-import Logo from "../../images/L1.png";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="header">
       <ul className="categories list">
@@ -10,10 +10,9 @@ export default function Header() {
         <li>Feminino</li>
         <li>Acessórios</li>
       </ul>
-      <div className="logo">
-        <img src={Logo} />
-      </div>
-      <ul className="user-actions list">
+      <div className="logo" />
+
+      <ul className={`${isOpen ? "show" : "not-showed"} user-actions list `}>
         <li>Busca</li>
         <li>Minha Conta</li>
         <li>
@@ -21,6 +20,10 @@ export default function Header() {
           <span class="material-icons-outlined">shopping_bag</span>
         </li>
       </ul>
+      <i
+        onClick={() => setIsOpen(!isOpen)}
+        class={`fas fa-bars hamburger ${isOpen && "open"}`}
+      ></i>
     </div>
   );
 }

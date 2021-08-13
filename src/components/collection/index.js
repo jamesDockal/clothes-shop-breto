@@ -100,21 +100,23 @@ export default function Collection() {
         <span className="page-number">03 </span>
         <i class="fas fa-chevron-right back-page"></i>
       </div>
-      <button
-        className={`${
-          position !== 0 && "enable-button"
-        } controll-button previous`}
-        onClick={() => previousProduct()}
-      >
-        <i class="fas fa-chevron-left"></i>
-      </button>
-      <button
-        className={`
+      <div className="controll-item">
+        <button
+          className={`${
+            position !== 0 && "enable-button"
+          } controll-button previous`}
+          onClick={() => previousProduct()}
+        >
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button
+          className={`
         ${position !== -500 && "enable-button"} controll-button next`}
-        onClick={() => nextProduct()}
-      >
-        <i class="fas fa-chevron-right"></i>
-      </button>
+          onClick={() => nextProduct()}
+        >
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
     </div>
   );
 }

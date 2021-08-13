@@ -44,7 +44,7 @@ ul li:hover {
 }
 
 .newsletter-explain {
-  color: #b1b1b1;
+  color: lightgray;
   max-width: 330px;
   font-weight: 300;
   font-size: 15px;
@@ -83,8 +83,8 @@ ul li:hover {
   font-size: 18px;
   font-family: "Poppins";
   width: 130px;
-  border-top-right-radius: 48%;
-  border-bottom-right-radius: 48%;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
   cursor: pointer;
   border: none;
 }
@@ -128,4 +128,47 @@ ul li:hover {
 .instagram:hover {
   transform: scale(1.4);
   color: #fb3958;
+}
+
+@media (max-width: 1150px) {
+  .services {
+    display: none;
+  }
+  .footer-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-us {
+    align-items: center;
+    text-align: center;
+  }
+
+  .newsletter-explain {
+    color: lightgray;
+    margin: 0 auto;
+  }
+  .medias {
+    margin: 0 auto;
+  }
+
+  .social-medias {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 700px) {
+  .add-email input {
+    width: 215px;
+    padding: 24px 18px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+
+  .add-email button {
+    padding: 20px 32px;
+    width: 100px;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+  }
 }
